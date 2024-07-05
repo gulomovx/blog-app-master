@@ -17,7 +17,7 @@ const BlogItem = ({title, description, category, image, id}) => {
               <p className="mb-3 text-sm tracking-tighter text-gray-700">{description}</p>
               <div className="flex items-center py-2 font-semibold text-center gap-2  hover:gap-4 transition-all cursor-pointer   ">
                   Read more <Image src={assets.arrow} className='ml-2' alt='' width={12}/>
-                  <div className="">asdfg</div>
+                  <div className=""></div>
               </div>
           </div>
     </div>
