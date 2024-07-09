@@ -12,13 +12,13 @@ const Sidebar = () => {
       <div className="w-32 sm:w-80 h-[100vh] relative py-12  ">
         <div className="w-[50%] sm:w-[80%] absolute right-0"></div>
         <Link href={`/admin/addProduct`} className="flex items-center border border-slate-600 gap-3 font-medium px-3 py-2 bg-white shadow-[-5px_5px_0px#000000]">
-          <Image src={assets.add_icon} width={28} /><p className="">Add blogs</p>
+          <Image alt='' src={assets.add_icon} width={28} /><p className="hidden md:block">Add blogs</p>
         </Link>
         <Link href={`/admin/blogList`} className=" my-4 flex items-center border border-slate-600 gap-3 font-medium px-3 py-2 bg-white shadow-[-5px_5px_0px#000000]">
-          <Image src={assets.blog_icon} width={28} /><p className="">Blog lists</p>
+          <Image alt='' src={assets.blog_icon} width={28} /><p className="hidden md:block">Blog lists</p>
         </Link>
         <Link href={`/admin/subscription`} className="flex items-center border border-slate-600 gap-3 font-medium px-3 py-2 bg-white shadow-[-5px_5px_0px#000000]">
-          <Image src={assets.email_icon} width={28} /><p className="">Subscriptions</p>
+          <Image alt='' src={assets.email_icon} width={28} /><p className="hidden md:block">Subscriptions</p>
         </Link>
       </div>
     </div>
