@@ -18,7 +18,8 @@ const Sidebar = () => {
           <Image alt='' src={assets.blog_icon} width={28} /><p className="hidden md:block">Blog lists</p>
         </Link>
         <Link href={`/admin/subscription`} className="flex items-center border border-slate-600 gap-3 font-medium px-3 py-2 bg-white shadow-[-5px_5px_0px#000000]">
-          <Image alt='' src={assets.email_icon} width={28} /><p className="hidden md:block">Subscriptions</p>
+          <Image alt='
+          ' src={assets.email_icon} width={28} /><p className="hidden md:block">Subscriptions</p>
         </Link>
       </div>
     </div>
