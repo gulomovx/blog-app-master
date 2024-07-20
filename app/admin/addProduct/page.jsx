@@ -1,9 +1,10 @@
 'use client'
 import { assets } from '@/Assets/assets'
 import Image from 'next/image'
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 
 const AddProduct = () => {
+  const [a, setA]=useState(0)
   const [image, setImage]=useState(false)
   const [data, setData]=useState({
     title:'',
@@ -12,6 +13,9 @@ const AddProduct = () => {
     author:'Web',
     authorImg:''
 })
+useEffect(()=>{
+setA(null)
+},[a])
 const onChangeHandler=(event)=>{
   const name=event.target.name
   const value=event.target.value
